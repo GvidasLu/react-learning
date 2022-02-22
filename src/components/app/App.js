@@ -1,9 +1,11 @@
+import Tasks from "../tasks/Tasks";
 
 
 function App() {
   return (
     <div className="App">
-      <p>Demo app</p>
+      <h1>TODO app</h1>
+        <Tasks/>
     </div>
   );
 }
