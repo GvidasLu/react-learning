@@ -22,3 +22,31 @@ ul {
 .not-rounded {
     border-radius: 0;
 }
+
+.red-text {
+    color: red;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.green-text {
+    color: green;
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+.pink-text {
+    color: pink;
+}
+
+.purple-text {
+    color: purple;
+}
+
+.navbar-brand {
+    width: 45px;
+}

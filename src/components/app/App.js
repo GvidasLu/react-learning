@@ -1,4 +1,5 @@
 import Tasks from "../tasks/Tasks";
+import {ReactComponent as Rocket} from '../img/rocket-solid.svg';
 // kaip prideti img folderio importa ???
 
 function App() {
@@ -6,37 +7,37 @@ function App() {
     <div className="App">
       <div className="container">
         <nav className="navbar">
-          <a className="navbar-brand" href="#">
-            <img src="./components/img/rocket-logo.svg"></img>
+          <a className="navbar-brand " href="#">
+            <Rocket />
           </a>
           <ul className="nav justify-content-end">
             <li className="nav-item">
-              <a className="nav-link red" href="#">
+              <a className="nav-link red-text" href="#">
                 Red
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link blue-text" href="#">
                 Blue
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-success" href="#">
+              <a className="nav-link green-text" href="#">
                 Green
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-warning" href="#">
+              <a className="nav-link yellow-text" href="#">
                 Yellow
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link pink-text" href="#">
                 Pink
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link purple-text" href="#">
                 Purple
               </a>
             </li>
