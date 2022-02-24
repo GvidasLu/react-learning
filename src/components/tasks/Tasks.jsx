@@ -1,4 +1,5 @@
 import './tasks.css';
+import { Container, Row, Card, Button } from 'react-bootstrap';
 import Task from "../task/Task";
 
 function Tasks() {
